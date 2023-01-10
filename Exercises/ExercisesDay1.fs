@@ -214,15 +214,14 @@ module ExercisesDay1 =
     let FindLargestNumberInAList() =
         let initialValue = [22; 6; 72; 33; 45; 10; 21; 67]
 
-        let result = initialValue |> List.map (fun x -> x) |> List.max
-
+        let result = initialValue |> List.max
         AssertEquality 72 result
 
     [<Test>]
     let SumAList() =
         let initialValue = [1 .. 6]
 
-        let result = List.map (fun x -> x) initialValue |> List.sum
+        let result = initialValue |> List.sum
 
         AssertEquality 21 result
 
