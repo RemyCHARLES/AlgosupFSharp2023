@@ -158,7 +158,7 @@ module ExercisesDay1 =
 
         let result = __ initialValue
 
-        AssertEquality [3; 2; 1] result
+        AssertEquality [4; 3; 2] result
 
     [<Ignore("Not implemented");Test>]
     let SortingAList() =
