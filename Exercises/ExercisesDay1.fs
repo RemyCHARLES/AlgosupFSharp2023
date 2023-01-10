@@ -277,8 +277,6 @@ module ExercisesDay1 =
     let CaesarCipher() =
         let initialValue = "Encode me!" |> List.ofSeq
 
-        let alphabet = ['A' .. 'Z'] |> List.ofSeq
-
         let encoder (l: list<char>) =
             l |> List.map (fun x -> 
                 if char x >= 'a' && char x <= 'm' then
